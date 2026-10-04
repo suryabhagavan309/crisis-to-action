@@ -1,0 +1,112 @@
+{
+  "goal": "Secure short-term housing in Bangalore within 8 days to bridge the gap before job joining in 10 days, staying within a ₹40,000 housing budget.",
+  "context": [
+    "User has a new job in Bangalore with joining in 10 days.",
+    "Current accommodation expires in 8 days, leaving a 2-day overlap gap.",
+    "₹40,000 is allocated specifically for housing-related expenses."
+  ],
+  "constraints": [
+    "Housing must be secured within 8 days before current accommodation ends.",
+    "Total housing budget cannot exceed ₹40,000.",
+    "Exact"
+  ],
+  "deadlines": [
+    "Stated joining and transition deadlines."
+  ],
+  "dependencies": [
+    "Availability of suitable options matching constraints."
+  ],
+  "missing_information": [
+    "Specific unstated preferences and detailed logistical terms."
+  ],
+  "options": [
+    "Evaluate short-term and immediate options within budget.",
+    "Verify unstated constraints and refine search criteria."
+  ],
+  "risks_and_tradeoffs": [
+    "Short-term cost and availability trade-offs."
+  ],
+  "immediate_actions": [
+    "Research and compare 2-3 suitable options within budget.",
+    "Verify missing details and clarify key constraints.",
+    "Finalize immediate transition steps."
+  ],
+  "evidence": [
+    "User-provided situation: I got a new job in Bangalore and my joining is in 10 days. My current accommodation ends in 8 days. I have ₹40,000 available for housing-rel"
+  ],
+  "decision_summary": "Prioritize evaluating short-term options that satisfy stated budget and timeline constraints. Verify key missing information before making the final decision.",
+  "research_evidence": [
+    {
+      "title": "r/Bengaluru on Reddit: How to survive in BLR on a 20k salary",
+      "snippet": "Assuming it's a IT job, i would suggest your free time to improve technical skills and do projects instead of part time job, which could multifold your package. Welcome to the beautiful city. All the best man. ... You can find room for 5-6k, definetly not below. After other expenses you might be able to save atleast 10k/month I guess. ... Atleast in bangalore he can increase his CTC very soon switching jobs.",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1pt5msj/how_to_survive_in_blr_on_a_20k_salary/"
+    },
+    {
+      "title": "Feeling the financial squeeze: Can I survive in Bangalore on a 40k monthly income? - Rediff Gurus",
+      "snippet": "Ans: Surviving in Bangalore with a monthly income of Rs. 40,000 is possible with careful financial planning. To manage rent, you can look for affordable housing or shared accommodations, aiming to keep it under Rs.",
+      "url": "https://gurus.rediff.com/question/qdtl/money/how-to-survive-in-banglore-with-40k-monthly-income/5167766"
+    },
+    {
+      "title": "Cost of Living in Bangalore. Sep 2026. Prices in Bangalore",
+      "snippet": "Trusted by 100+ companies across 10+ countries — from fintech and consulting firms to global HR teams. ... The estimated monthly costs for a family of four are €1,131.6 (₹123,805.0), excluding rent (using our estimator). The estimated monthly costs for a single person are €309.0 (₹33,805.7), excluding rent. Bangalore is 71.5% less expensive than Munich (excluding rent, see our cost of living index).",
+      "url": "https://www.numbeo.com/cost-of-living/in/Bangalore"
+    },
+    {
+      "title": "r/Bengaluru on Reddit: I have been asked to relocate to Bengaluru at the salary of 40k and want to understand how viable does everyone thing it would be? The office is in Hebbal and I would really appreciate everyone input in this to make a sound decision (more in body)",
+      "snippet": "Oh, Happy to hear that, my only expense other than food and rent is probably gonna be badminton once a week Any PG you would recommend? ... I'm not familiar with specific PGs in the area but I'd suggest you take a look at the different pgs irl, read online reviews and then take a decision ... Accommodation: PG costs around ₹7,000–₹10,000 while a 1BHK ranges from ₹10,000–₹15,000.",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1q9t2td/i_have_been_asked_to_relocate_to_bengaluru_at_the/"
+    },
+    {
+      "title": "Moving to Bangalore for a New Job? Complete Relocation Guide 2025",
+      "snippet": "For singles: ₹40,000-60,000 monthly for comfortable living with savings. For couples: ₹80,000-1,20,000 combined. This allows for decent accommodation, eating out occasionally, and building savings. Not necessary but helpful. English works in professional settings, malls, and most restaurants.",
+      "url": "https://www.assureshift.in/blog/moving-to-bangalore-for-new-job-relocation-guide"
+    }
+  ],
+  "last_updated": "2026-10-04T18:18:40.195321+05:30",
+  "approval": {
+    "status": "approved",
+    "message": "Plan approved by user.",
+    "approved_at": "user-approved"
+  },
+  "execution": {
+    "status": "success",
+    "case_id": "case_001",
+    "actions": [
+      {
+        "action_id": 1,
+        "action": "Research temporary accommodation options",
+        "status": "executed"
+      },
+      {
+        "action_id": 2,
+        "action": "Compare housing options within budget",
+        "status": "executed"
+      },
+      {
+        "action_id": 3,
+        "action": "Verify missing information with employer and landlords",
+        "status": "executed"
+      }
+    ]
+  },
+  "replan": {
+    "case_changed": true,
+    "change_summary": "New information was received, updating case parameters and decision tradeoffs.",
+    "resolved_items": [
+      "New details clarify prior uncertainties in the initial situation."
+    ],
+    "removed_actions": [],
+    "new_actions": [
+      "Review updated constraints against initial plan and verify missing details."
+    ],
+    "updated_risks": [
+      "Adjusted timeline or cost constraints may impact overall plan execution."
+    ],
+    "revised_plan": [
+      "Update step 1 to incorporate new information.",
+      "Re-evaluate next actions.",
+      "Execute updated workflow."
+    ],
+    "revised_decision_summary": "The new information modifies key constraints and options. Review the updated risks and revised plan before final approval."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "query": "I got a new job in Bangalore and my joining is in 10 days. My current accommodation ends in 8 days. I have ₹40,000 available for housing-related expenses and I have not found a long-term place yet.",
+  "searched_at": "2026-10-04T18:17:59.169509+05:30",
+  "case_id": "case_001",
+  "status": "success",
+  "evidence": [
+    {
+      "id": 1,
+      "title": "r/Bengaluru on Reddit: How to survive in BLR on a 20k salary",
+      "snippet": "Assuming it's a IT job, i would suggest your free time to improve technical skills and do projects instead of part time job, which could multifold your package. Welcome to the beautiful city. All the best man. ... You can find room for 5-6k, definetly not below. After other expenses you might be able to save atleast 10k/month I guess. ... Atleast in bangalore he can increase his CTC very soon switching jobs.",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1pt5msj/how_to_survive_in_blr_on_a_20k_salary/",
+      "published": "2025-12-22T17:36:15"
+    },
+    {
+      "id": 2,
+      "title": "Feeling the financial squeeze: Can I survive in Bangalore on a 40k monthly income? - Rediff Gurus",
+      "snippet": "Ans: Surviving in Bangalore with a monthly income of Rs. 40,000 is possible with careful financial planning. To manage rent, you can look for affordable housing or shared accommodations, aiming to keep it under Rs.",
+      "url": "https://gurus.rediff.com/question/qdtl/money/how-to-survive-in-banglore-with-40k-monthly-income/5167766",
+      "published": null
+    },
+    {
+      "id": 3,
+      "title": "Cost of Living in Bangalore. Sep 2026. Prices in Bangalore",
+      "snippet": "Trusted by 100+ companies across 10+ countries — from fintech and consulting firms to global HR teams. ... The estimated monthly costs for a family of four are €1,131.6 (₹123,805.0), excluding rent (using our estimator). The estimated monthly costs for a single person are €309.0 (₹33,805.7), excluding rent. Bangalore is 71.5% less expensive than Munich (excluding rent, see our cost of living index).",
+      "url": "https://www.numbeo.com/cost-of-living/in/Bangalore",
+      "published": null
+    },
+    {
+      "id": 4,
+      "title": "r/Bengaluru on Reddit: I have been asked to relocate to Bengaluru at the salary of 40k and want to understand how viable does everyone thing it would be? The office is in Hebbal and I would really appreciate everyone input in this to make a sound decision (more in body)",
+      "snippet": "Oh, Happy to hear that, my only expense other than food and rent is probably gonna be badminton once a week Any PG you would recommend? ... I'm not familiar with specific PGs in the area but I'd suggest you take a look at the different pgs irl, read online reviews and then take a decision ... Accommodation: PG costs around ₹7,000–₹10,000 while a 1BHK ranges from ₹10,000–₹15,000.",
+      "url": "https://www.reddit.com/r/Bengaluru/comments/1q9t2td/i_have_been_asked_to_relocate_to_bengaluru_at_the/",
+      "published": "2026-01-11T07:23:15"
+    },
+    {
+      "id": 5,
+      "title": "Moving to Bangalore for a New Job? Complete Relocation Guide 2025",
+      "snippet": "For singles: ₹40,000-60,000 monthly for comfortable living with savings. For couples: ₹80,000-1,20,000 combined. This allows for decent accommodation, eating out occasionally, and building savings. Not necessary but helpful. English works in professional settings, malls, and most restaurants.",
+      "url": "https://www.assureshift.in/blog/moving-to-bangalore-for-new-job-relocation-guide",
+      "published": "2025-12-18T00:00:00"
+    }
+  ],
+  "sources": [
+    "https://www.reddit.com/r/Bengaluru/comments/1pt5msj/how_to_survive_in_blr_on_a_20k_salary/",
+    "https://gurus.rediff.com/question/qdtl/money/how-to-survive-in-banglore-with-40k-monthly-income/5167766",
+    "https://www.numbeo.com/cost-of-living/in/Bangalore",
+    "https://www.reddit.com/r/Bengaluru/comments/1q9t2td/i_have_been_asked_to_relocate_to_bengaluru_at_the/",
+    "https://www.assureshift.in/blog/moving-to-bangalore-for-new-job-relocation-guide"
+  ]
+}

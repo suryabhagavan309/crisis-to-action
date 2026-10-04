@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+# Local / development files
+*.bak
+scratch/
+.dist/
+node_modules/
+frontend/node_modules/
+__pycache__/

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed-variant":"#454747","surface-container-lowest":"#0c0e13","on-surface-variant":"#c4c7c8","tertiary-fixed":"#eae0dd","secondary-fixed":"#dce3f1","on-surface":"#e2e2e9","on-tertiary":"#342f2e","secondary-container":"#424955","on-tertiary-fixed":"#1f1b19","on-primary-container":"#636565","on-primary-fixed":"#1a1c1c","outline":"#8e9192","secondary-fixed-dim":"#c0c7d5","outline-variant":"#444748","error":"#ffb4ab","on-background":"#e2e2e9","surface-variant":"#33353a","background":"#111318","surface-container":"#1e2025","surface-container-high":"#282a2f","on-secondary-fixed":"#151c26","on-tertiary-fixed-variant":"#4b4644","surface":"#111318","secondary":"#c0c7d5","on-error":"#690005","surface-dim":"#111318","on-secondary-container":"#b2b9c6","tertiary":"#ffffff","surface-tint":"#c6c6c7","surface-container-highest":"#33353a","surface-container-low":"#1a1b21","on-primary":"#2f3131","primary-fixed":"#e2e2e2","tertiary-fixed-dim":"#cec5c2","primary-fixed-dim":"#c6c6c7","on-tertiary-container":"#6a6361","primary":"#ffffff","surface-bright":"#37393f","on-error-container":"#ffdad6","on-secondary":"#2a313b","on-secondary-fixed-variant":"#404752","primary-container":"#e2e2e2","inverse-surface":"#e2e2e9","tertiary-container":"#eae0dd","inverse-primary":"#5d5f5f","error-container":"#93000a","inverse-on-surface":"#2e3036"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter":"1rem","space-sm":"0.5rem","space-lg":"1.25rem","space-xl":"2rem","space-xs":"0.25rem","space-md":"0.75rem","margin-mobile":"0.75rem","gutter-sm":"0.5rem","margin":"1.5rem","gutter-lg":"1.5rem"},fontFamily:{"code-sm":["JetBrains Mono"],"headline-lg":["Inter"],"headline-xl-mobile":["Inter"],"body-md":["Inter"],"code-md":["JetBrains Mono"],"label-md":["Inter"],"label-sm":["Inter"],"headline-xl":["Inter"],"headline-md":["Inter"],"body-sm":["Inter"],"body-lg":["Inter"]},fontSize:{"code-sm":["11px",{"lineHeight":"16px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["20px",{"lineHeight":"26px","letterSpacing":"-0.02em","fontWeight":"500"}],"headline-xl-mobile":["24px",{"lineHeight":"30px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-md":["13px",{"lineHeight":"18px","letterSpacing":"-0.005em","fontWeight":"400"}],"code-md":["12px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-xl":["32px",{"lineHeight":"38px","letterSpacing":"-0.03em","fontWeight":"600"}],"headline-md":["16px",{"lineHeight":"22px","letterSpacing":"-0.015em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["14px",{"lineHeight":"20px","letterSpacing":"-0.01em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased min-h-screen selection:bg-surface-container-highest"><header class="fixed top-0 left-0 right-0 h-14 z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30"><div class="h-14 w-full px-gutter-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><img alt="Brand logo. - Primary color: #ededed
+- Font: inter
+- Mode: dark
+- Roundness: rounded-sm
+" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U4shQyKFz9v4-NwJ9zbyqXmL0unS-CeSOwNOker0C6_ZgTYPUDFaMITwbiOSyQrBbLRmrfSi2w4A60249hgciD0lG-w8-wJCtDFVEt9vY03QeL6B8UvlMAZkSK_UB7T3ldGBdDrDJPlj95yAuTb_YDRZNWmDrxxjm2RSkRi689qgLaFIVgMGbX1RfzUgfhoj4CKxk4h3q4sqdrhsey6Mg07apBQGtHIJLUDAhAzM_DrNFj1meJ-dyKy3ge"/><span class="font-code-sm text-code-sm tracking-widest text-primary uppercase font-medium">Crisis → Action</span><span class="text-outline-variant">/</span><div class="flex items-center gap-space-xs px-space-xs py-0.5 rounded bg-surface-container-lowest border border-outline-variant/30 text-on-surface-variant font-code-sm text-code-sm"><span class="w-1.5 h-1.5 rounded-full bg-primary inline-block"></span><span>Bangalore Relocation</span></div></div><nav class="hidden lg:flex items-center gap-space-xl font-code-sm text-code-sm tracking-wider uppercase" data-active-classes="text-primary font-medium border-b border-primary pb-0.5"><a class="text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" data-path="stage-understand" href="#"><span>01</span><span>Understand</span></a><span class="text-outline-variant/60 font-code-sm text-code-sm">→</span><a class="text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" data-path="stage-explore" href="#"><span>02</span><span>Explore</span></a><span class="text-outline-variant/60 font-code-sm text-code-sm">→</span><a class="text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" data-path="stage-decide" href="#"><span>03</span><span>Decide</span></a><span class="text-outline-variant/60 font-code-sm text-code-sm">→</span><a class="text-on-surface-variant hover:text-on-surface transition-colors flex items-center gap-space-xs" data-path="stage-act" href="#"><span>04</span><span>Act</span></a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-lowest border border-outline-variant/30"><span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span><span class="font-code-sm text-code-sm text-on-surface">Agent active</span><span class="text-outline-variant font-code-sm text-code-sm">•</span><span class="font-code-sm text-code-sm text-on-surface-variant">13:44</span></div><div class="hidden md:flex items-center gap-space-xs"><kbd class="px-1.5 py-0.5 rounded bg-surface-container border border-outline-variant/30 font-code-sm text-code-sm text-on-surface-variant">⌘K</kbd><kbd class="px-1.5 py-0.5 rounded bg-surface-container border border-outline-variant/30 font-code-sm text-code-sm text-on-surface-variant">Space</kbd></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><aside class="fixed left-0 top-14 bottom-0 w-14 z-40 bg-surface-container-lowest border-r border-outline-variant/30 flex flex-col justify-between py-space-md items-center"><div class="flex flex-col gap-space-sm items-center w-full px-space-xs"><a class="w-9 h-9 rounded flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="overview" href="#" title="Session Canvas"><span class="material-symbols-outlined text-[18px]">grid_view</span></a><a class="w-9 h-9 rounded flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="activity-stream" href="#" title="Agent Stream"><span class="material-symbols-outlined text-[18px]">neurology</span></a><a class="w-9 h-9 rounded flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="decision-graph" href="#" title="Decision Matrix"><span class="material-symbols-outlined text-[18px]">hub</span></a></div><div class="flex flex-col gap-space-sm items-center w-full px-space-xs"><a class="w-9 h-9 rounded flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" data-path="workspace-settings" href="#" title="Settings"><span class="material-symbols-outlined text-[18px]">tune</span></a></div></aside><div class="pl-14"><main class="w-full pt-14 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<div class="max-w-[1360px] mx-auto w-full px-gutter md:px-margin lg:px-gutter-lg py-space-xl flex flex-col gap-space-xl">
+<!-- STAGE HEADER & CONTEXT HUD -->
+<section class="flex flex-col gap-space-lg">
+<div class="flex flex-wrap items-center justify-between gap-space-md pb-space-sm border-b border-outline-variant/30">
+<div class="flex items-center gap-space-sm font-code-sm text-code-sm tracking-wider uppercase text-on-surface-variant">
+<span class="inline-flex items-center justify-center w-4 h-4 rounded-full bg-surface-container-highest text-primary font-medium text-[10px]">04</span>
+<span class="text-primary font-medium">Stage 04</span>
+<span class="text-outline-variant">/</span>
+<span>Commitment Boundary</span>
+<span class="text-outline-variant">/</span>
+<span class="text-primary tracking-normal font-mono">[FINAL GATEKEEPER]</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-code-sm text-code-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+<span class="text-on-surface">Human Gatekeeper Active</span>
+</div>
+<span class="text-outline-variant">•</span>
+<span>Buffer: Zero tolerance</span>
+</div>
+</div>
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg pt-space-xs">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">Review your plan</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            The autonomous agent has synthesized constraints, verified inventory, and organized the sequential steps. No external funds, commitments, or dispatches will execute without explicit authorization.
+          </p>
+</div>
+<div class="flex items-center gap-space-sm self-start lg:self-end">
+<div class="px-space-md py-space-xs rounded bg-surface-container-low border border-outline-variant/30 flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">shield</span>
+<span class="font-code-sm text-code-sm text-on-surface uppercase tracking-wider">Escrow Locked</span>
+</div>
+<div class="px-space-md py-space-xs rounded bg-surface-container-low border border-outline-variant/30 flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">sync_alt</span>
+<span class="font-code-sm text-code-sm text-on-surface uppercase tracking-wider">Causal Replan: ON</span>
+</div>
+</div>
+</div>
+</section>
+<!-- CURRENT STATE STRIP (3-Metric Hairline Grid) -->
+<section class="grid grid-cols-1 md:grid-cols-3 rounded-lg bg-surface-container-lowest border border-outline-variant/30 divide-y md:divide-y-0 md:divide-x divide-outline-variant/30">
+<div class="p-space-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider">Primary Objective</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">flag</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-primary font-medium">Establish Bangalore Living Base</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Pre-onboarding physical footprint confirmed prior to Day 1 start (Oct 15).</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant">
+<span>Target zone:</span>
+<span class="text-on-surface font-mono">Indiranagar Stage II</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider">Critical Trajectory</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">timer</span>
+</div>
+<div>
+<div class="flex items-baseline gap-space-sm">
+<span class="font-headline-xl text-headline-xl text-primary font-mono tracking-tight">T-8</span>
+<span class="font-code-md text-code-md text-on-surface-variant">Days to Lease Checkout</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">T-10 Days until mandatory reporting at corporate headquarters.</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant">
+<span>Drift tolerance:</span>
+<span class="text-on-surface font-mono">0.00h (Strict hard-stop)</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider">Constraint Invariants</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">rule</span>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-primary font-medium">3 Hard Bounds Active</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Indiranagar radius (≤800m), ₹75k ceiling, zero calendar transit gap.</p>
+</div>
+<div class="pt-space-xs flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant">
+<span>Status:</span>
+<span class="text-on-surface font-mono">100% Parameter Satisfied</span>
+</div>
+</div>
+</section>
+<!-- MAIN TWO-COLUMN WORKSPACE: ACTION PLAN (LEFT) + RATIONALE & UNKNOWNS (RIGHT) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- ACTION PLAN COLUMN (8 COLS) -->
+<section class="lg:col-span-8 flex flex-col gap-space-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">play_arrow</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Execution Pipeline</h2>
+</div>
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant">
+<span>Deterministic Graph</span>
+<span>•</span>
+<span>4 Interlocking Nodes</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- STEP 01: P0 -->
+<article class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-outline-variant transition-all relative flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-md">
+<span class="font-code-md text-code-md text-on-surface-variant font-mono px-2 py-0.5 rounded bg-surface-container-highest">01</span>
+<h3 class="font-headline-md text-headline-md text-primary font-medium">Secure Temporary Accommodation</h3>
+</div>
+<div class="flex items-center gap-space-sm self-start sm:self-center">
+<span class="px-2 py-0.5 rounded text-[11px] font-mono tracking-wider uppercase font-semibold bg-primary text-on-primary">P0 CRITICAL</span>
+<span class="font-code-sm text-code-sm text-on-surface-variant font-mono">Escrow Hold</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-normal">
+              Lock in pre-vetted 48-hour Indiranagar serviced suite to eliminate risk of transit stranding between checkout and office reporting.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs border-t border-outline-variant/20 font-code-sm text-code-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="text-outline">DEP:</span>
+<span class="text-on-surface font-mono">None (Immediate execution path)</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant sm:justify-end">
+<span class="text-outline">ACTION:</span>
+<span class="text-on-surface font-mono">Draft reservation prepared · Escrow hold on approval</span>
+</div>
+</div>
+</article>
+<!-- STEP 02: P1 -->
+<article class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-outline-variant transition-all relative flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-md">
+<span class="font-code-md text-code-md text-on-surface-variant font-mono px-2 py-0.5 rounded bg-surface-container-highest">02</span>
+<h3 class="font-headline-md text-headline-md text-primary font-medium">Confirm Company Accommodation Details</h3>
+</div>
+<div class="flex items-center gap-space-sm self-start sm:self-center">
+<span class="px-2 py-0.5 rounded text-[11px] font-mono tracking-wider uppercase font-semibold bg-surface-container-highest text-on-surface">P1 HIGH</span>
+<span class="font-code-sm text-code-sm text-on-surface-variant font-mono">Outbound Relay</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-normal">
+              Submit corporate guest-house eligibility ticket. If confirmed, Action 01 auto-cancels with 100% refund under the flexible corporate SLA buffer.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs border-t border-outline-variant/20 font-code-sm text-code-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="text-outline">DEP:</span>
+<span class="text-on-surface font-mono">Depends on Employer HR SLA (24h window)</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant sm:justify-end">
+<span class="text-outline">ACTION:</span>
+<span class="text-on-surface font-mono">Outbound verification dispatch ready</span>
+</div>
+</div>
+</article>
+<!-- STEP 03: P2 -->
+<article class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-outline-variant transition-all relative flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-md">
+<span class="font-code-md text-code-md text-on-surface-variant font-mono px-2 py-0.5 rounded bg-surface-container-highest">03</span>
+<h3 class="font-headline-md text-headline-md text-primary font-medium">Review Long-Term Housing Options</h3>
+</div>
+<div class="flex items-center gap-space-sm self-start sm:self-center">
+<span class="px-2 py-0.5 rounded text-[11px] font-mono tracking-wider uppercase font-semibold bg-surface-container-highest text-on-surface">P2 SCHEDULED</span>
+<span class="font-code-sm text-code-sm text-on-surface-variant font-mono">Queue Ready</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-normal">
+              Curate shortlisted 2BHK apartments in Indiranagar Stage II within 800m walking radius of the tech campus. Pre-inspected for backup power and optical fiber.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs border-t border-outline-variant/20 font-code-sm text-code-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="text-outline">DEP:</span>
+<span class="text-on-surface font-mono">Unlocked once Bangalore arrival is established</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant sm:justify-end">
+<span class="text-outline">ACTION:</span>
+<span class="text-on-surface font-mono">4 verified listings queued for physical walkthrough</span>
+</div>
+</div>
+</article>
+<!-- STEP 04: P3 -->
+<article class="p-space-lg rounded-lg bg-surface-container-low border border-outline-variant/40 hover:border-outline-variant transition-all relative flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-space-md">
+<span class="font-code-md text-code-md text-on-surface-variant font-mono px-2 py-0.5 rounded bg-surface-container-highest">04</span>
+<h3 class="font-headline-md text-headline-md text-primary font-medium">Schedule Operations Follow-Up</h3>
+</div>
+<div class="flex items-center gap-space-sm self-start sm:self-center">
+<span class="px-2 py-0.5 rounded text-[11px] font-mono tracking-wider uppercase font-semibold bg-surface-container-highest text-on-surface-variant">P3 CALM</span>
+<span class="font-code-sm text-code-sm text-on-surface-variant font-mono">Cron Job</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-normal">
+              Automated trigger to reconcile landlord security deposit return and synchronize fiber broadband installation window at final dwelling.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs border-t border-outline-variant/20 font-code-sm text-code-sm">
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="text-outline">DEP:</span>
+<span class="text-on-surface font-mono">T-Minus 5 Days checkpoint</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant sm:justify-end">
+<span class="text-outline">ACTION:</span>
+<span class="text-on-surface font-mono">Calendar lock synchronized</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- ANALYTICAL RIGHT RAIL: WHY THIS PLAN + OPEN QUESTIONS (4 COLS) -->
+<aside class="lg:col-span-4 flex flex-col gap-space-lg">
+<!-- WHY THIS PLAN (RATIONALE PANEL) -->
+<div class="rounded-lg bg-surface-container-lowest border border-outline-variant/30 flex flex-col overflow-hidden">
+<div class="p-space-md border-b border-outline-variant/30 flex items-center justify-between bg-surface-container-low/50">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium">Why This Plan</h3>
+<p class="font-code-sm text-code-sm text-on-surface-variant mt-0.5">Deterministic rationale &amp; risk bounding</p>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">balance</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider font-mono">01 / Constraints Considered</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Hard move-out in 8 days, corporate arrival Oct 15, zero downtime tolerated.
+              </p>
+</div>
+<div class="border-t border-outline-variant/20 pt-space-sm flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider font-mono">02 / Evidence Used</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                3 vetted serviced apartments with verified high-speed fiber; historical HR response latency (14.2h).
+              </p>
+</div>
+<div class="border-t border-outline-variant/20 pt-space-sm flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider font-mono">03 / Trade-offs</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Slight upfront deposit hold traded for absolute elimination of homelessness uncertainty.
+              </p>
+</div>
+<div class="border-t border-outline-variant/20 pt-space-sm flex flex-col gap-space-xs">
+<span class="font-code-sm text-code-sm text-on-surface-variant uppercase tracking-wider font-mono">04 / Uncertainties Bounded</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                HR approval variance absorbed by flexible 24h free-cancellation policy.
+              </p>
+</div>
+</div>
+</div>
+<!-- OPEN QUESTIONS / RESIDUAL UNKNOWNS -->
+<div class="rounded-lg bg-surface-container-lowest border border-outline-variant/30 flex flex-col overflow-hidden">
+<div class="p-space-md border-b border-outline-variant/30 flex items-center justify-between bg-surface-container-low/50">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium uppercase tracking-wider text-[13px]">Open Questions / Residual Unknowns</h3>
+<p class="font-code-sm text-code-sm text-on-surface-variant mt-0.5">Dynamic trajectory dependencies</p>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">help_outline</span>
+</div>
+<div class="p-space-md flex flex-col gap-space-md">
+<div class="flex items-start gap-space-sm">
+<span class="font-mono text-code-sm text-on-surface-variant pt-0.5">[A]</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Will employer cover first 30 days of corporate lodging? 
+                <span class="text-on-surface-variant block mt-0.5 font-code-sm text-code-sm">(Pending HR response — expected within 18h)</span>
+</p>
+</div>
+<div class="border-t border-outline-variant/20 pt-space-sm flex items-start gap-space-sm">
+<span class="font-mono text-code-sm text-on-surface-variant pt-0.5">[B]</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+                Security deposit refund schedule from current landlord.
+                <span class="text-on-surface-variant block mt-0.5 font-code-sm text-code-sm">(Unconfirmed checkout inspection time)</span>
+</p>
+</div>
+<div class="p-space-sm rounded bg-surface-container-low border border-outline-variant/20 mt-space-xs">
+<div class="flex items-center gap-space-xs font-code-sm text-code-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+<span class="font-medium text-on-surface">System Invariant:</span>
+</div>
+<p class="font-code-sm text-code-sm text-on-surface-variant mt-1 leading-normal">
+                If any unknown resolves favorably, causal replanning triggers automatically without human intervention.
+              </p>
+</div>
+</div>
+</div>
+</aside>
+</div>
+<!-- BOTTOM ACTION BAR / COMMITMENT BOUNDARY -->
+<section class="mt-space-md pt-space-lg border-t border-outline-variant/30 flex flex-col sm:flex-row items-center justify-between gap-space-lg">
+<div class="flex items-center gap-space-md">
+<div class="w-2.5 h-2.5 rounded-full bg-primary flex-shrink-0 animate-ping"></div>
+<p class="font-body-md text-body-md text-on-surface">
+          Human approval required before consequential actions. <span class="text-on-surface-variant">Autonomous processes paused.</span>
+</p>
+</div>
+<div class="flex items-center gap-space-md w-full sm:w-auto justify-end">
+<button class="px-space-lg py-2 rounded text-on-surface-variant hover:text-on-surface bg-surface-container-low hover:bg-surface-container border border-outline-variant/40 font-body-md text-body-md transition-colors flex items-center gap-space-xs" id="btn-review">
+<span class="material-symbols-outlined text-[16px]">arrow_back</span>
+<span>Review again</span>
+</button>
+<button class="px-space-xl py-2 rounded bg-primary text-on-primary hover:bg-primary/90 font-headline-md text-headline-md font-medium tracking-tight transition-all active:scale-[0.98] flex items-center gap-space-xs shadow-sm" id="btn-approve">
+<span>Approve action plan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</section>
+<!-- KEYBOARD HOTKEY FOOTER LEGEND -->
+<footer class="flex items-center justify-center gap-space-md py-space-xs font-code-sm text-code-sm text-on-surface-variant border-t border-outline-variant/10">
+<div class="flex items-center gap-1.5">
+<kbd class="px-1.5 py-0.5 rounded bg-surface-container border border-outline-variant/30 text-on-surface font-mono">⌘</kbd>
+<kbd class="px-1.5 py-0.5 rounded bg-surface-container border border-outline-variant/30 text-on-surface font-mono">↵</kbd>
+<span>to approve</span>
+</div>
+<span>•</span>
+<div class="flex items-center gap-1.5">
+<kbd class="px-1.5 py-0.5 rounded bg-surface-container border border-outline-variant/30 text-on-surface font-mono">Esc</kbd>
+<span>to review options</span>
+</div>
+</footer>
+</div>
+</div>
+<script>
+  (function() {
+    const approveBtn = document.getElementById('btn-approve');
+    const reviewBtn = document.getElementById('btn-review');
+
+    function triggerApprove() {
+      if (!approveBtn) return;
+      approveBtn.disabled = true;
+      approveBtn.innerHTML = `
+        <span class="inline-block w-4 h-4 border-2 border-on-primary border-t-transparent rounded-full animate-spin"></span>
+        <span>Executing Authorization...</span>
+      `;
+      setTimeout(() => {
+        approveBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[18px]">check</span>
+          <span>Action Plan Authorized</span>
+        `;
+        approveBtn.classList.remove('bg-primary');
+        approveBtn.classList.add('bg-surface-container-highest', 'text-primary');
+      }, 900);
+    }
+
+    if (approveBtn) {
+      approveBtn.addEventListener('click', triggerApprove);
+    }
+
+    if (reviewBtn) {
+      reviewBtn.addEventListener('click', () => {
+        window.history.back();
+      });
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+        e.preventDefault();
+        triggerApprove();
+      }
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        if (reviewBtn) reviewBtn.click();
+      }
+    });
+  })();
+</script></main></div></body></html>
